@@ -32,7 +32,7 @@ const Resume = () => {
         
 {/* Left Side: Animated Document Icon - Clickable */}
         <a 
-          href="/El Hamdani FatimaZohra.pdf"
+          href="/El Hamdani FatimaZohra.pdf (1).pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="w-48 h-48 md:w-64 md:h-64 flex-shrink-0 relative flex items-center justify-center mx-auto md:mx-0 cursor-pointer"
@@ -58,7 +58,7 @@ const Resume = () => {
           {/* Download button */}
           <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
             <a
-              href="El Hamdani FatimaZohra.pdf"
+              href="/El Hamdani FatimaZohra.pdf (1).pdf"
               download="CV_FatimaZohra_ElHamdani.pdf"
               className="group relative flex items-center gap-3 overflow-hidden rounded-full bg-gradient-to-r from-violet-600 to-cyan-500 px-8 py-4 font-bold text-white shadow-lg shadow-violet-500/30 transition-all hover:scale-105 hover:shadow-cyan-500/30"
             >
