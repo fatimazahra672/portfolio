@@ -14,35 +14,35 @@ const categories = [
     label: 'Frameworks & Libs',
     icon: '⬡',
     accent: '#a855f7',
-    skills: ['Spring Boot', 'Laravel', 'Flask', 'React', 'Node.js', 'Express.js', 'Bootstrap', 'Ajax', 'JavaFX', 'Swing', 'Qt'],
+    skills: ['Spring Boot', 'Laravel', 'Flask', 'React', 'Angular', 'Node.js', 'Express.js', 'Bootstrap', 'JavaFX'],
   },
   {
     id: 'databases',
     label: 'Databases',
     icon: '◈',
     accent: '#10b981',
-    skills: ['MySQL', 'Oracle', 'MongoDB', 'SQL', 'NoSQL'],
+    skills: ['MySQL', 'PostgreSQL', 'Oracle', 'MongoDB', 'SQL', 'NoSQL'],
   },
   {
     id: 'ml',
-    label: 'Data Science & ML',
+    label: 'AI & Data Science',
     icon: '◉',
     accent: '#f59e0b',
-    skills: ['NumPy', 'Pandas', 'Scikit-learn', 'Matplotlib', 'TensorFlow', 'Keras', 'Web Scraping'],
+    skills: ['NumPy', 'Pandas', 'Scikit-learn', 'TensorFlow', 'Keras', 'AraBERT', 'EfficientNet'],
   },
   {
     id: 'tools',
     label: 'Tools & Environments',
     icon: '⚙',
     accent: '#ec4899',
-    skills: ['VS Code', 'IntelliJ IDEA', 'Jupyter Notebook', 'Linux', 'Excel', 'Git'],
+    skills: ['Git', 'Docker', 'Linux', 'VS Code', 'IntelliJ IDEA', 'Jupyter Notebook', 'Visual Studio', 'Excel'],
   },
   {
     id: 'soft',
     label: 'Soft Skills',
     icon: '✦',
     accent: '#6366f1',
-    skills: ['Report Writing', 'Stakeholder Management', 'Communication', 'Project Management', 'Teamwork', 'Marketing Basics', 'Cost Control'],
+    skills: ['Project Management (Agile)', 'Teamwork', 'Technical Writing', 'Problem Analysis', 'Adaptability'],
   },
 ]
 
@@ -183,4 +183,3 @@ const Skills = () => {
 }
 
 export default Skills
-

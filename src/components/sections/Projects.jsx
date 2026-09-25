@@ -4,6 +4,29 @@ import mongoImg from '../../assets/mongo.jpg'
 
 const projects = [
   { 
+    title: "VERITAS AI", 
+    desc: "Multimodal fake news detection: Arabic text credibility analysis via AraBERT, AI-generated image classification (EfficientNet), and authenticity verification (ELA + Deep Learning).", 
+    tags: ["Python", "AraBERT", "EfficientNet", "React.js", "Deep Learning"], 
+    color: "from-rose-500 to-red-700", 
+    github: "https://github.com/fatimazahra672/veritas-ai",
+       demo: "https://lnkd.in/p/eSuiy5eV",
+
+    category: "Machine Learning",
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+  },
+      
+     { 
+    title: "ENROLLHUB", 
+    desc: "Scalable university management platform built on a microservices architecture with API Gateway and Service Discovery, designed to handle massive data flows.", 
+    tags: ["Spring Boot", "Eureka", "Docker", "MySQL", "Microservices"], 
+    color: "from-blue-500 to-indigo-700", 
+    github: "https://github.com/fatimazahra672/Student-Enrollment-System",
+    demo: "https://lnkd.in/p/eSuiy5eV",
+    category: "Distributed Systems",
+    image: "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+
+  { 
     title: "Weather Globe 3D", 
     desc: "Interactive weather app with 3D globe, immersive sound effects and real-time search.", 
     tags: ["React 18", "Three.js", "Redux", "OpenWeather"], 
@@ -11,7 +34,7 @@ const projects = [
     github: "https://github.com/fatimazahra672/weather-globe-3d",
     demo: "https://weather-globe-3d.vercel.app/",
     category: "Full-Stack",
-    image: "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=800&q=80"
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80"
   },
   { 
     title: "VisioShop AI", 
@@ -21,9 +44,9 @@ const projects = [
     github: "https://github.com/fatimazahra672/visioshop-ai-ecommerce",
     demo: "https://www.linkedin.com/posts/fatima-zahra-el-hamdani-5ab54a296_fullstack-reactjs-python-ugcPost-7430064133368086529-7590?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEegptMBxA2FfAHaAP_OVnkgTF9NXHsnCSY",
     category: "Machine Learning",
-    image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800&q=80"
+    image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80"
   },
-  { 
+    { 
     title: "AeroCast", 
     desc: "Air quality prediction (PM2.5) using Machine Learning and real-time weather data.", 
     tags: ["FastAPI", "Python", "React.js", "Random Forest"], 
@@ -31,8 +54,8 @@ const projects = [
     github: "https://github.com/fatimazahra672/AeroCast-Air-Pollution-Prediction",
     demo: "https://www.linkedin.com/posts/fatima-zahra-el-hamdani-5ab54a296_machinelearning-artificialintelligence-predictivemodeling-ugcPost-7422050432732155905-9wWz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEegptMBxA2FfAHaAP_OVnkgTF9NXHsnCSY",
     category: "Machine Learning",
-    image: "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=800&q=80"
-  },
+    image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },,
   { 
     title: "CryptoAnalyzer", 
     desc: "Desktop tool for AI-assisted decryption (Gemini) and automatic analysis of encryption formats.", 
@@ -41,11 +64,11 @@ const projects = [
     github: "https://github.com/fatimazahra672/cryptoanalyzer-desktop",
     demo: "https://www.linkedin.com/posts/fatima-zahra-el-hamdani-5ab54a296_really-proud-of-this-collaboration-withfatima-ugcPost-7435542834189037568-h2jF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEegptMBxA2FfAHaAP_OVnkgTF9NXHsnCSY",
     category: "Full-Stack",
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&q=80"
+    image: "https://images.unsplash.com/photo-1633265486064-086b219458ec?w=800&q=80"
   },
   { 
     title: "MongoDB Sharded Cluster", 
-    desc: "Implementation of a production-grade sharded MongoDB cluster with replica sets, config servers, and mongos routers for horizontal scaling across distributed NoSQL nodes.", 
+    desc: "Production-grade sharded MongoDB cluster with replica sets, config servers, and mongos routers for horizontal scaling across distributed NoSQL nodes.", 
     tags: ["MongoDB", "NoSQL", "Distributed Systems", "Sharding"], 
     color: "from-green-500 to-emerald-700", 
     github: "#",
@@ -55,13 +78,13 @@ const projects = [
   },
   { 
     title: "Light-Following Robot", 
-    desc: "Autonomous robot that detects and follows a light source using LDR sensors — like a sunflower! Built with Arduino as the brain, LDR sensors as eyes, and an L298N motor driver for movement.", 
+    desc: "Autonomous robot that detects and follows a light source using LDR sensors — like a sunflower! Built with Arduino, LDR sensors, and an L298N motor driver.", 
     tags: ["Arduino", "C++", "Electronics", "LDR Sensors"], 
     color: "from-yellow-400 to-orange-600", 
     github: "#",
     demo: "https://www.linkedin.com/posts/fatima-zahra-el-hamdani-5ab54a296_robotique-arduino-engineering-activity-7416581422976708609-SyBa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEegptMBxA2FfAHaAP_OVnkgTF9NXHsnCSY",
     category: "Robotics",
-    image: "https://images.unsplash.com/photo-1561557944-6e7860d1a7eb?w=800&q=80"
+    image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&q=80"
   },
   { 
     title: "HR Management (C++)", 
@@ -71,7 +94,7 @@ const projects = [
     github: "https://github.com/fatimazahra672/gestion_employes_qt",
     demo: null,
     category: "Full-Stack",
-    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80"
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
   },
   { 
     title: "Teacher Assignment", 
@@ -81,7 +104,7 @@ const projects = [
     github: "https://github.com/fatimazahra672/gestion-d-affectation-des-professeurs-",
     demo: "https://www.linkedin.com/posts/fatima-zahra-el-hamdani-5ab54a296_projetweb-daezveloppementphp-gestionenseignement-activity-7348042176007729153-WJBs?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEegptMBxA2FfAHaAP_OVnkgTF9NXHsnCSY",
     category: "Full-Stack",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80"
+    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80"
   },
   { 
     title: "Explore Tourism", 
@@ -91,7 +114,7 @@ const projects = [
     github: "#",
     demo: null,
     category: "Full-Stack",
-    image: "https://images.unsplash.com/photo-1488085061387-422e29b40080?w=800&q=80"
+    image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=80"
   },
   { 
     title: "Electricity Billing", 

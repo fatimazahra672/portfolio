@@ -6,10 +6,10 @@ const Introduction = () => {
   // Typing effect
   const texts =[
     "Full Stack Web Developer",
-    "Student in 4th year Computer Engineering",
-    "Specialized in React & Node.js",
+    "Student in 5th year Computer Engineering",
+    "Specialized in React, Angular & Node.js",
     "Backend Developer (Java & Python)",
-    "Passionate about modern interfaces",
+    "Passionate about AI & automation",
     "Always ready for new challenges",
   ]
   const[displayedText, setDisplayedText] = useState('')
@@ -85,8 +85,6 @@ const Introduction = () => {
         {/* === SECTION BOUTONS & RESEAUX SOCIAUX (Compact et sur 1 ligne) === */}
         <motion.div 
           variants={itemVariants} 
-          // Suppression du scroll (overflow-x-auto/w-max)
-          // Ajout de flex-row pour forcer la disposition horizontale avec un gap plus petit
           className="flex flex-row items-center gap-2 sm:gap-3 w-full"
         >
           {/* Bouton Primaire : Projets */}
@@ -94,7 +92,6 @@ const Introduction = () => {
             href="#projects"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            // Taille réduite : h-10/12, px-4/5, text-xs/sm
             className="group relative flex shrink-0 h-10 sm:h-12 items-center justify-center gap-1.5 overflow-hidden rounded-full bg-gradient-to-r from-violet-600 to-cyan-500 px-4 sm:px-5 text-xs sm:text-sm font-bold text-white shadow-lg shadow-violet-500/30 transition-all whitespace-nowrap"
           >
             <span className="relative z-10">See projects</span>
@@ -109,7 +106,6 @@ const Introduction = () => {
             href="#contact"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            // Taille réduite : h-10/12, px-4/5, text-xs/sm
             className="group flex shrink-0 h-10 sm:h-12 items-center justify-center gap-1.5 rounded-full border border-white/20 bg-white/5 px-4 sm:px-5 text-xs sm:text-sm font-semibold text-gray-200 backdrop-blur-sm transition-all hover:bg-white/10 hover:border-white/40 hover:text-white whitespace-nowrap"
           >
             <span>Contact</span>
@@ -121,7 +117,7 @@ const Introduction = () => {
           {/* Ligne de séparation affinée */}
           <div className="hidden sm:block h-6 w-px bg-white/20 rounded-full mx-0.5 shrink-0"></div>
 
-          {/* GitHub (Taille réduite : h-10 w-10 au lieu de 14) */}
+          {/* GitHub */}
           <motion.a
             href="https://github.com/fatimazahra672" target="_blank" rel="noreferrer"
             whileHover={{ scale: 1.15, rotate: 5 }} whileTap={{ scale: 0.9 }}
@@ -132,7 +128,7 @@ const Introduction = () => {
             </svg>
           </motion.a>
 
-          {/* LinkedIn (Taille réduite : h-10 w-10 au lieu de 14) */}
+          {/* LinkedIn */}
           <motion.a
             href="https://www.linkedin.com/in/fatima-zahra-el-hamdani-5ab54a296/" target="_blank" rel="noreferrer"
             whileHover={{ scale: 1.15, rotate: -5 }} whileTap={{ scale: 0.9 }}
